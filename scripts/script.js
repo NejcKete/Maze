@@ -36,7 +36,7 @@ function displayVictoryMess(moves) {
     Swal.fire({
         position: "center",
         icon: "success",
-        title: "Congrats you did it",
+        title: "Congrats you did it in "+moves+" moves",
         showConfirmButton: false,
         timer: 1500
       });
